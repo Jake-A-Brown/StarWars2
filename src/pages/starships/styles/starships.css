@@ -1,0 +1,33 @@
+.starships{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: goldenrod;
+}
+
+.starships-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.starship-results{
+    display: flex;
+    flex-direction: column;
+}
+
+.starship-items{
+    margin: 2%;
+}
+
+.starship-button{
+    margin-top: 20%;
+    border-radius: 50px;
+}
+
+.starship-button:hover{
+    background-color: black;
+    color: gold;
+}

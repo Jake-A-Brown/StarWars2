@@ -1,0 +1,35 @@
+.species{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: goldenrod;
+}
+
+.species-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.species-results{
+    display: flex;
+    flex-direction: column;
+}
+
+.species-result-container{}
+
+.species-items{
+    margin: 2%;
+}
+
+.species-button{
+    margin-top: 20%;
+    border-radius: 50px;
+}
+
+.species-button:hover{
+    background-color: black;
+    color: gold;
+}

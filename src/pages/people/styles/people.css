@@ -1,0 +1,32 @@
+.people {
+    display: flex;
+    flex-direction: column;
+    color: goldenrod;
+    align-items: center;
+}
+
+.people-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.people-result-container {
+    display: flex;
+    width: calc(100%/1.2);
+}
+
+.people-items {
+    margin: 10px;
+}
+
+.people-button {
+    margin-top: 20%;
+    border-radius: 50px;
+}
+
+.people-button:hover {
+    background-color: black;
+    color: gold;
+}

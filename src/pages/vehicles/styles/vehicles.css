@@ -1,0 +1,33 @@
+.vehicles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: goldenrod;
+}
+
+.vehicle-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.vehicle-results{
+    display: flex;
+    flex-direction: column;
+}
+
+.vehicle-items{
+    margin: 2%;
+}
+
+.vehicle-button{
+    margin-top: 20%;
+    border-radius: 50px;
+}
+
+.vehicle-button:hover{
+    background-color: black;
+    color: gold;
+}
